@@ -1,3 +1,10 @@
+// Parametros
+// Quando a duração for menos de 3h
+// Homens comem 4 pedaços, mulheres 3 pedaços e crianças 2 pedaços
+// Se durar mais de 3h
+// Homens comem 6 pedaços, mulheres 5 e crianças 4
+
+
 
     let inputHomens = document.getElementById("homens");
     let inputMulheres = document.getElementById("mulheres");
