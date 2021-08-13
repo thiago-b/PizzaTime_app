@@ -8,20 +8,30 @@
     <title>Tem que pedir quantas?</title>
 </head>
 <body>
+    <main>
     <div class="container">
-        <h1>Pizza Time</h1>
-        <input id="homens" name="homens" type="number" placeholder="Homens">
-        <input id="mulheres" name="mulheres" type="number" placeholder="Mulheres">
-        <input id="criancas" name="criancas" type="number" placeholder="Crianças">
-        <input id="duracao" name="duracao" type="number" placeholder="Duração (h)">
-        <button onclick="calcular()">Calcular</button>
-        
-    </div>
+        <div class="title"> Pizza Time </div>
+        <div class="input">
+            <label>Homens</label>
+            <input type="number" id='nome'>
+        </div>
+        <div class="input">
+            <label>Mulheres</label>
+            <input type="number" id='altura'>
+        </div>
+        <div class="input">
+            <label>Crianças</label>
+            <input type="number" id='peso'>
+        </div>
+        <div class="input">
+            <label>Duração (h)</label>
+            <input type="number" id='peso'>
+        </div>
+        <button id="calcular">Calcular</button>
+
+        <div class="result" id="resultado"></div>
     
-    <div id="resultado">
-
-    </div>
-
+</main>
     <script src="./script.js"></script>
 </body>
 </html>
